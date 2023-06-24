@@ -1,0 +1,73 @@
+site_name: Volistx Documentation
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.sticky
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: slate
+  logo: false
+  font:
+    text: Titillium Web
+
+extra:
+  generator: false
+  version:
+    default: stable
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: "&copy; 2023 Volistx Solutions"
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - UserPoint API:
+      - userpoint/index.md
+      - userpoint/getting-started.md
+      - userpoint/lookup-endpoint.md
+      - userpoint/generate-endpoint.md
+      - userpoint/errors.md
+  - GeoPoint API:
+      - geopoint/index.md
+      - geopoint/getting-started.md
+      - geopoint/errors.md
+  - BINPoint API:
+      - binpoint/index.md
+      - binpoint/getting-started.md
+      - binpoint/errors.md
