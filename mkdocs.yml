@@ -57,17 +57,29 @@ extra_css:
 
 nav:
   - Home: index.md
+  - BINPoint API:
+      - binpoint/index.md
+      - binpoint/getting-started.md
+      - binpoint/errors.md
+  - GeoPoint API:
+      - geopoint/index.md
+      - geopoint/getting-started.md
+      - geopoint/errors.md
+  - LingoPoint API:
+      - lingopoint/index.md
+      - lingopoint/getting-started.md
+      - lingopoint/errors.md
+  - MailPoint API:
+      - mailpoint/index.md
+      - mailpoint/getting-started.md
+      - mailpoint/errors.md
+  - TelePoint API:
+      - telepoint/index.md
+      - telepoint/getting-started.md
+      - telepoint/errors.md
   - UserPoint API:
       - userpoint/index.md
       - userpoint/getting-started.md
       - userpoint/lookup-endpoint.md
       - userpoint/generate-endpoint.md
       - userpoint/errors.md
-  - GeoPoint API:
-      - geopoint/index.md
-      - geopoint/getting-started.md
-      - geopoint/errors.md
-  - BINPoint API:
-      - binpoint/index.md
-      - binpoint/getting-started.md
-      - binpoint/errors.md
